@@ -7,8 +7,8 @@ public class Exercicio_Dois {
 
 		Scanner sc = new Scanner(System.in);
 
-		int x = sc.nextInt();
-		int y = sc.nextInt();
+		int x = sc.nextInt(); //variavel x para iniciar o programa
+		int y = sc.nextInt(); //variavel y para iniciar o programa
 
 		// while (x != 0 || y != 0) {
 		// if (x > 0 && y > 0) {
@@ -39,8 +39,8 @@ public class Exercicio_Dois {
 			} else {
 				System.out.println("quarto");
 			}
-			x = sc.nextInt();
-			y = sc.nextInt();
+			x = sc.nextInt(); //variavel x para reativar o WHILE
+			y = sc.nextInt(); //variavel Y para reativar o WHILE
 		}
 		sc.close();
 	}
