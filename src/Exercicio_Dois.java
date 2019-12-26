@@ -10,26 +10,38 @@ public class Exercicio_Dois {
 		int x = sc.nextInt();
 		int y = sc.nextInt();
 
-		while (x != 0 || y != 0) {
+		// while (x != 0 || y != 0) {
+		// if (x > 0 && y > 0) {
+		// System.out.println("primeiro");
+		// x = sc.nextInt();
+		// y = sc.nextInt();
+		// } else if (x < 0 && y > 0) {
+		// System.out.println("segundo");
+		// x = sc.nextInt();
+		// y = sc.nextInt();
+		// } else if (x < 0 && y < 0) {
+		// System.out.println("terceiro");
+		// x = sc.nextInt();
+		// y = sc.nextInt();
+		// } else if (x > 0 && y < 0) {
+		// System.out.println("quarto");
+		// x = sc.nextInt();
+		// y = sc.nextInt();
+		// }
+		// }
+		while (x != 0 && y != 0) {
 			if (x > 0 && y > 0) {
 				System.out.println("primeiro");
-				x = sc.nextInt();
-				y = sc.nextInt();
 			} else if (x < 0 && y > 0) {
 				System.out.println("segundo");
-				x = sc.nextInt();
-				y = sc.nextInt();
 			} else if (x < 0 && y < 0) {
 				System.out.println("terceiro");
-				x = sc.nextInt();
-				y = sc.nextInt();
-			} else if (x > 0 && y < 0) {
+			} else {
 				System.out.println("quarto");
-				x = sc.nextInt();
-				y = sc.nextInt();
 			}
+			x = sc.nextInt();
+			y = sc.nextInt();
 		}
-		System.out.println("NULO");
 		sc.close();
 	}
 
